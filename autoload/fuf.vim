@@ -1013,7 +1013,7 @@ let s:bufferCursorPosMap = {}
 let s:DATA_FILE_VERSION = 400
 
 "
-function s:checkDataFileCompatibility()
+function fuf#checkDataFileCompatibility()
   if empty(g:fuf_dataDir)
     let s:dataFileAvailable = 0
     return
@@ -1038,7 +1038,7 @@ function s:checkDataFileCompatibility()
   endif
 endfunction
 
-call s:checkDataFileCompatibility()
+"call s:checkDataFileCompatibility()
 
 " }}}1
 "=============================================================================

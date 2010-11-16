@@ -152,6 +152,7 @@ endfunction
 " INITIALIZATION {{{1
 
 call s:initialize()
+call fuf#checkDataFileCompatibility()
 
 " }}}1
 "=============================================================================
